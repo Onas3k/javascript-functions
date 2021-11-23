@@ -1,4 +1,9 @@
-function seed() {}
+function seed(a,b,c) {
+  // return [a,b,c];
+  // let [d, e,f] = seed;
+  let args = [].slice.call(arguments);
+
+}
 
 function same([x, y], [j, k]) {}
 
