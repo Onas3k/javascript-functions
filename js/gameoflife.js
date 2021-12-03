@@ -1,14 +1,22 @@
 function seed(a,b,c) {
   // return [a,b,c];
   // let [d, e,f] = seed;
-  let args = [].slice.call(arguments);
+   X = [].slice.call(arguments);
 
 }
 
-function same([x, y], [j, k]) {}
+function same([x, y], [j, k]) {
+  A = [].slice.call(arguments[0]);
+  B = [].slice.call(arguments[1]);
+  if (A === B){ return true; }
+  // return "Cells are the same";
+  
+}
 
 // The game state to search for `cell` is passed as the `this` value of the function.
-function contains(cell) {}
+function contains(cell) {
+  
+}
 
 const printCell = (cell, state) => {};
 
