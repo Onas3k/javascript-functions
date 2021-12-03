@@ -7,9 +7,10 @@ function seed(a,b,c) {
 }
 
 function same([x, y], [j, k]) {
-  A = [].slice.call(arguments[0]);
-  B = [].slice.call(arguments[1]);
-  if (A === B){ return true; }
+  return x===j && y===k
+  // A = [].slice.call(arguments[0]);
+  // B = [].slice.call(arguments[1]);
+  // if (A === B){ return true; }
   // return "Cells are the same";
   
 }
