@@ -2,6 +2,7 @@ function seed(a,b,c) {
   // return [a,b,c];
   // let [d, e,f] = seed;
    X = [].slice.call(arguments);
+   return X;
 
 }
 
